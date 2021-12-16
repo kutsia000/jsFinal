@@ -129,11 +129,11 @@ export class MyElement extends LitElement {
     return isValid;
   }
 
-  async postTweet(){
+  postTweet(){
     let validationResult = this.inputsValidator();
 
     if(validationResult){
-      await check()
+      check()
       .then((res)=>{
         const tweet = {
           name:this.nameToTweet,
